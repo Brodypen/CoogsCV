@@ -1,8 +1,9 @@
-
+import Header from "./components/Header";
 function App() {
+  const x = true;
   return (
-    <div className="App">
-      <h1 className="title">Hello! I'm learning React!</h1>
+    <div className="container">
+      <Header />
     </div>
   );
 }
